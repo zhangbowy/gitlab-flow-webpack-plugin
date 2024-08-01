@@ -1,0 +1,35 @@
+{
+  "name": "gitlab-flow-webpack-plugin",
+  "version": "1.0.1",
+  "description": "控制台打印构gitLab流水线建信息插件",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc -w -p .",
+    "build": "rimraf dist && tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "张博",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.6"
+  },
+  "homepage": "https://github.com/zhangbowy/gitlab-flow-webpack-plugin#readme",
+  "keywords": [
+    "aliyun",
+    "flow",
+    "codeup",
+    "vite",
+    "vite-plugin",
+    "console",
+    "pipeline"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhangbowy/gitlab-flow-webpack-plugin.git"
+  }
+}
